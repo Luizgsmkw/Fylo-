@@ -1,0 +1,11 @@
+@import "variaveis.scss";
+
+.btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, $cyan-color, $blue-color);
+  color: $white-color;
+}

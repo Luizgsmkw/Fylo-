@@ -1,0 +1,180 @@
+@import "variaveis.scss";
+@import "button.scss";
+
+main {
+  background-color: $main-dark-blue;
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.div-info {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.h3-info {
+  color: $white-color;
+  font-family: $font-openSans;
+}
+
+.p-info {
+  width: 355px;
+  text-align: center;
+  line-height: 20px;
+  font-family: $font-openSans;
+}
+
+.container-productive {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.productive-info {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.h2-productive {
+  color: $white-color;
+  font-size: 40px;
+  width: 400px;
+  font-family: $font-openSans;
+}
+
+.p-productive {
+  width: 440px;
+  font-family: $font-openSans;
+}
+
+.a-productive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  color: $cyan-color;
+  border-bottom: 0.2px solid $cyan-color;
+  width: 157px;
+}
+
+.container-testimonials {
+  background-image: url("../img/bg-quotes.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  width: 87vw;
+  margin: auto;
+}
+
+.testimonials-perfil-1,
+.testimonials-perfil-2,
+.testimonials-perfil-3 {
+  background-color: $testimonials-dark-blue;
+  width: 350px;
+  border-radius: 5px;
+  padding-left: 30px;
+  margin-bottom: 50px;
+  height: 250px;
+}
+
+.p-testimonials-perfil {
+  width: 290px;
+  font-family: $font-openSans;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: $white-color;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.testimonials-perfil-1-infos,
+.testimonials-perfil-2-infos,
+.testimonials-perfil-3-infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.testimonials-perfil-1-infos img,
+.testimonials-perfil-2-infos img,
+.testimonials-perfil-3-infos img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonials-perfil-1-infos-name h5,
+.testimonials-perfil-2-infos-name h5,
+.testimonials-perfil-3-infos-name h5 {
+  color: $white-color;
+  margin-bottom: 6px;
+}
+
+.container-email {
+  background-color: $navbar-and-email-dark-blue;
+  width: 750px;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 100px;
+  margin-bottom: -80px;
+  position: relative;
+}
+
+.container-email h3 {
+  font-family: $font-openSans;
+  font-size: 25px;
+  color: $white-color;
+}
+
+.container-email p {
+  width: 500px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.input_email {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.input_email small {
+  padding-left: 15px;
+  padding-top: 7px;
+  color: $erro-color;
+}
